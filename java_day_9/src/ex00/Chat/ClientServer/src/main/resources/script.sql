@@ -1,0 +1,5 @@
+CREATE TABLE day09.app_user(
+     user_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+     username VARCHAR(255),
+     password VARCHAR(255)
+)
